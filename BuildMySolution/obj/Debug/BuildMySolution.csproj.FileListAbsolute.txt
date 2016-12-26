@@ -1,0 +1,17 @@
+c:\users\iqan.shaikh\desktop\visual studio 2013\Projects\BuildMySolution\BuildMySolution\bin\Debug\BuildMySolution.exe.config
+c:\users\iqan.shaikh\desktop\visual studio 2013\Projects\BuildMySolution\BuildMySolution\bin\Debug\BuildMySolution.exe
+c:\users\iqan.shaikh\desktop\visual studio 2013\Projects\BuildMySolution\BuildMySolution\bin\Debug\BuildMySolution.pdb
+c:\users\iqan.shaikh\desktop\visual studio 2013\Projects\BuildMySolution\BuildMySolution\obj\Debug\BuildMySolution.csprojResolveAssemblyReference.cache
+c:\users\iqan.shaikh\desktop\visual studio 2013\Projects\BuildMySolution\BuildMySolution\obj\Debug\MainWindow.baml
+c:\users\iqan.shaikh\desktop\visual studio 2013\Projects\BuildMySolution\BuildMySolution\obj\Debug\MainWindow.g.cs
+c:\users\iqan.shaikh\desktop\visual studio 2013\Projects\BuildMySolution\BuildMySolution\obj\Debug\App.g.cs
+c:\users\iqan.shaikh\desktop\visual studio 2013\Projects\BuildMySolution\BuildMySolution\obj\Debug\BuildMySolution_MarkupCompile.cache
+c:\users\iqan.shaikh\desktop\visual studio 2013\Projects\BuildMySolution\BuildMySolution\obj\Debug\BuildMySolution.g.resources
+c:\users\iqan.shaikh\desktop\visual studio 2013\Projects\BuildMySolution\BuildMySolution\obj\Debug\BuildMySolution.Properties.Resources.resources
+c:\users\iqan.shaikh\desktop\visual studio 2013\Projects\BuildMySolution\BuildMySolution\obj\Debug\BuildMySolution.csproj.GenerateResource.Cache
+c:\users\iqan.shaikh\desktop\visual studio 2013\Projects\BuildMySolution\BuildMySolution\obj\Debug\BuildMySolution.exe
+c:\users\iqan.shaikh\desktop\visual studio 2013\Projects\BuildMySolution\BuildMySolution\obj\Debug\BuildMySolution.pdb
+C:\Users\Iqan.Shaikh\Desktop\visual studio 2013\Projects\BuildMySolution\BuildMySolution\bin\Debug\BuildMySolution.exe.manifest
+C:\Users\Iqan.Shaikh\Desktop\visual studio 2013\Projects\BuildMySolution\BuildMySolution\bin\Debug\BuildMySolution.application
+C:\Users\Iqan.Shaikh\Desktop\visual studio 2013\Projects\BuildMySolution\BuildMySolution\obj\Debug\BuildMySolution.exe.manifest
+C:\Users\Iqan.Shaikh\Desktop\visual studio 2013\Projects\BuildMySolution\BuildMySolution\obj\Debug\BuildMySolution.application

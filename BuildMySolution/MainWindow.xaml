@@ -1,0 +1,44 @@
+﻿<Window x:Class="BuildMySolution.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Build, Clean, Rebuild Solution" Height="600" Width="800"
+        Icon="MSBuild.png">
+    <Grid>
+        <Label Content="Set MSBUILD path:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="BtnBrowseVs" Content="Browse" HorizontalAlignment="Left" Margin="121,10,0,0" VerticalAlignment="Top" Width="75" Click="BtnBrowseVs_OnClick"/>
+        <TextBox x:Name="TxtPathCmd" HorizontalAlignment="Left" Height="23" Margin="201,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="372" Text="e.g. C:\Program Files (x86)\MSBuild\12.0\Bin\" Foreground="Gray"/>
+        <Button Name="BtnSaveSettings" Content="Save Current Path Settings" HorizontalAlignment="Left" Margin="578,10,0,0" VerticalAlignment="Top" Width="204" Click="BtnSaveSettings_OnClick"/>
+        <Label Content="Set branch path:" HorizontalAlignment="Left" Margin="10,39,0,0" VerticalAlignment="Top"/>
+        <Button Name="BtnBrowse" Content="Browse" HorizontalAlignment="Left" Margin="121,39,0,0" VerticalAlignment="Top" Width="75" Click="BtnBrowse_Click"/>
+        <TextBox Name="TxtPath" HorizontalAlignment="Left" Height="23" Margin="201,39,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="268"/>
+        <TextBox Name="TxtSearch" HorizontalAlignment="Left" Height="23" Margin="578,39,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="139"/>
+        <Button Name="BtnGetAll" Content="Get All Solutions" HorizontalAlignment="Left" Margin="474,39,0,0" VerticalAlignment="Top" Width="99" Click="BtnGetAll_Click"/>
+        <Button Name="BtnSearchSolution" Content="Search" HorizontalAlignment="Left" Margin="722,39,0,0" VerticalAlignment="Top" Width="60" Click="BtnSearchSolution_Click"/>
+        <DataGrid Name="DgSolutions" HorizontalAlignment="Left" Margin="10,67,0,0" Visibility="Hidden" ColumnWidth="*" VerticalAlignment="Top" AutoGenerateColumns="False" CanUserAddRows="false" SelectionUnit="Cell">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding SolutionName}" Header="Solution Name" />
+                <DataGridTemplateColumn Header="  " Width="75">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button x:Name="Build" Click="Build_OnClick" FontSize="14" Background="MediumSeaGreen" Foreground="White">Build</Button>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn Header="  " Width="75">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button x:Name="Clean" Click="Clean_OnClick" FontSize="14" Background="PaleVioletRed" Foreground="White">Clean</Button>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn Header="  " Width="75">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button x:Name="Rebuild" Click="Rebuild_OnClick" FontSize="14" Background="DeepSkyBlue" Foreground="White">Rebuild</Button>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Window>
